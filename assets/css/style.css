@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    background-color: black;
+}
+
+main {
+    width: 600px;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 20px yellow;
+    margin: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(120deg, black,lightblue,black,lightblue);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+
+header h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.titulos {
+    text-align: center;
+}
+
+#dadospessoais {
+    display: flex;
+    justify-content: space-between;
+}
+
+#dadospessoais p {
+    margin: 5px;
+}
+
+#pessoal {
+    text-align: left;
+    padding: 10px;
+}
+
+#links {
+    text-align: right;
+    padding: 10px;
+    border-left: 1px solid black;
+}
+
+#formacao {
+    padding: 10px;
+}
+
+#formacao p {
+    margin: 5px;
+}
+
+#conhecimentos {
+    padding: 10px;
+}
+
+#conhecimentos p {
+    margin: 5px;
+}
+
+#experiencia {
+    padding: 10px;
+}
+
+#experiencia p {
+    margin: 5px;
+}
+
+#certificados {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#certificados p {
+    margin: 5px;
+}
